@@ -1,0 +1,18 @@
+create database MyFistAPI;
+
+USE MYFISTAPI;
+
+CREATE TABLE Pessoa(
+Codigo int(4) AUTO_INCREMENT,
+Nome varchar(30) NOT NULL,
+Endereco varchar(50),
+PRIMARY KEY (Codigo)
+);
+
+INSERT INTO Pessoa (Codigo, Nome, Endereco) VALUES (null, 'Tom B. Erichsen', 'Rua teste 1 ');
+INSERT INTO Pessoa (Codigo, Nome, Endereco) VALUES (null, 'João Silva', 'Rua teste 2 ');
+INSERT INTO Pessoa (Codigo, Nome, Endereco) VALUES (null, 'Joschua Rezende', 'Rua teste 3 ');
+INSERT INTO Pessoa (Codigo, Nome, Endereco) VALUES (null, 'Milchael Jackson', 'Rua teste 4 ');
+INSERT INTO Pessoa (Codigo, Nome, Endereco) VALUES (null, 'Vinicius Guidolin', 'Rua teste 5 ');
+INSERT INTO Pessoa (Codigo, Nome, Endereco) VALUES (null, 'Rogério Sampaio', 'Rua teste 6 ');
+
